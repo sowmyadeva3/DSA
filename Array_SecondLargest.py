@@ -5,10 +5,11 @@ class Solution:
         secondLargest = -1
         for i in range(1,len(arr)):
             if arr[i]>largest:
+                secondLargest=largest
                 largest=arr[i]
-        for i in range(0,len(arr)):
-            if arr[i]>secondLargest and arr[i]!=largest:
-                secondLargest = arr[i]
+            elif arr[i]>secondLargest and arr[i]!=largest:
+                secondLargest=arr[i]
+                 
         return secondLargest
 
 
