@@ -1,3 +1,5 @@
+# 1. Basic version where we are creating a copy reversing teh original list and comparing.
+
 #User function Template for python3
 '''
 
@@ -82,7 +84,7 @@ if __name__ == '__main__':
 
 # } Driver Code Ends
 
-#Optimized version reverse only 2nd half
+#2. Optimized version reverse only 2nd half
 
 #User function Template for python3
 '''
